@@ -14,4 +14,35 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.rahimseyidovduisburg</groupId>
+            <artifactId>open-lap-analytics-method-template-master</artifactId>
+            <version>version1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.rahimseyidovduisburg</groupId>
+            <artifactId>open-lap-data-exchange-formats-master</artifactId>
+            <version>version1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.rahimseyidovduisburg</groupId>
+            <artifactId>open-lap-visualization-technique-template-master</artifactId>
+            <version>version1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-base</artifactId>
+            <version>11</version>
+        </dependency>
+    </dependencies>
+
+
 </project>
